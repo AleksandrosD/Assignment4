@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/188/453/original/abstract-blur-background-with-pastel-color-free-vector.jpg") ;
+  }
+  
+
+  h1{
+    text-align: center;
+  }
+  
+  .poster {
+    margin: 30px;
+    margin-top: 5px;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #poster-image {
+    width: auto;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  
+  #poster-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #poster-quote {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  button:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+  }
+  #tryMe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  #peek{
+    display: none;
+    
+    
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .kutia {
+    display:none;
+    margin: auto;
+    
+    margin-bottom: 50px;
+    width:100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: gray;
+    
+  }
+  .grid {
+    display: grid;
+    margin-left: 32.5%;
+    align-self:flex-start;
+    grid-template-columns: 50% auto; /* Update to have two columns with automatic width */
+    grid-gap: 4px; /* Adjust the gap between columns as needed */
+    
+  }
+  
+  
+  
+  
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
